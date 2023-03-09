@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>Mi portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
+    <link rel="stylesheet" href="css de la página.css">
+  </head>
+  <body>
+    <header >
+      <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca de mí</a></li>
+            <li><a href="#education">Formación Académica</a></li>
+            <li><a href="#work">Experiencia Laboral</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>    
+    </header>
+    <section  id="home">
+      <h1>Bienvenidos a mi página</h1>
+      <p>Mi nombre es Azul Amerise. Soy estudiante de último año de la carrera de Traductorado Público e Interpretariado Simultáneo en ínglés. Mi objetivo es especializarme en lo audiovisual y lo relacionado a IT.</p>
+    </section>
+    <section id="about">
+      <h2>Acerca de mí</h2>
+      <img src="your-profile-picture.jpg" alt="x">
+      <p>Full Stack Developer Jr. Estoy estudiando Traductorado de inglés y decidí especializarme en las nuevas tecnologías. La localización de una página web, de un producto o servicio debe realizarse correctamente, para esto decidí aprender como llevar mis servicios al siguiente nivel. En esta página vas a encontrar más información sobre mis proyectos, mi formación académica y los servicios que ofrezco.</p>
+    </section>
+    <section id="education">
+      <h2>Formación Académica</h2>
+      <ul>
+        <li>Educación Secundaria: Estudiantes de la Plata | Bachiller en Ciencias Sociales</li>
+        <li>Universidad: UADE - Doble titulación en Traductorado Público e Interpretariado Simultaneo en idioma inglés</li>
+        <li>Idiomas que manejo: inglés (C1), japonés (B2) y español (Nativo)</li>
+        <li>Conocimiento sobre programación: Full stack Developer Jr. (Argentina Programa)</li>
+      </ul>
+    </section>
+    <section id="work">
+      <h2>Experiencia Laboral</h2>
+      <ul>
+        <li>Traducción: Trabajadora indenpendiente para Flix translation</li>
+        <li>Profesorado: profesora de japonés para la academia Ciao</li>
+      </ul>
+    </section>
+    <section id="contact">
+      <h2>Contactame</h2>
+      <form>
+        <div class="mb-3">
+            <label for="name">Nombre:</label>
+            <input type="text" class="form-control" id="name" name="name">
+            <label for="idE" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="idE" aria-describedby ="idEH">
+            <div id="idEH" class="form-text">Debe ser un correo válido.</div>
+        </div>
+        <div class="mb-3">
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>    
+    </section>
+  </body>
+</html>
